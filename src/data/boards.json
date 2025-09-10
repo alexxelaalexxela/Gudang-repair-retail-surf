@@ -1,9 +1,9 @@
 [
   {
-    "id": "lombok-fish",
-    "name": "Lombok Fish",
+    "id": "Bali-fish",
+    "name": "Bali Fish",
     "type": "Fish",
-    "description": "Perfect for the playful waves of Gerupuk. Twin fin setup for speed and maneuverability.",
+    "description": "Perfect for the playful waves of Canggu. Twin fin setup for speed and maneuverability.",
     "dimensions": {
       "length": "5'11-6'5\"",
       
@@ -21,10 +21,10 @@
     ]
   },
   {
-    "id": "gerupuk-gun",
-    "name": "Gerupuk Gun",
+    "id": "Uluwatu-gun",
+    "name": "Uluwatu Gun",
     "type": "Step-Up",
-    "description": "For the bigger days at Desert Point and Bangko Bangko. Built for power and control.",
+    "description": "For the bigger days at Uluwatu. Built for power and control.",
     "dimensions": {
       "length": "7'0-8'6\"",
       "width": "19.5\"",

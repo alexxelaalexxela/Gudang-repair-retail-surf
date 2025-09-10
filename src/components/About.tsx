@@ -36,8 +36,8 @@ const About = () => {
             </h2>
             <div className="w-24 h-1 bg-ocean-medium mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              From the pristine waters of Gerupuk to the hands of master craftsmen, 
-              BANYU represents the perfect fusion of tradition and innovation in surfboard shaping.
+              From Canggu to the hands of master craftsmen, 
+              Half King represents the perfect fusion of tradition and innovation in surfboard and fin shaping.
             </p>
           </div>
 
@@ -48,17 +48,17 @@ const About = () => {
                 Where Tradition Meets Innovation
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Founded in the heart of Gerupuk Village, BANYU Surfboards emerged from a simple yet profound vision: 
-                to create world-class surfboards that honor Indonesian craftsmanship while embracing modern design principles.
+                Born in Bali, Half King emerged from a simple yet profound vision: 
+                to create world-class surfboards and fins that honor Indonesian craftsmanship while embracing modern design principles.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Our master shapers combine decades of woodworking tradition with cutting-edge surfboard technology, 
-                creating boards that are not just functional tools, but works of art that tell the story of Lombok's 
+                Our master shapers combine decades of woodworking tradition with cutting-edge surfboard and fin technology, 
+                creating equipment that is not just functional, but works of art that tell the story of Bali's 
                 rich cultural heritage and incredible waves.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Every board that leaves our shaping bay carries with it the spirit of Indonesian craftsmanship 
-                and the soul of Lombok's legendary surf breaks.
+                Every board and fin that leaves our workshop carries the spirit of Indonesian craftsmanship 
+                and the soul of Bali's legendary surf breaks.
               </p>
             </div>
 
@@ -66,7 +66,7 @@ const About = () => {
             <div className="relative">
               <img 
                 src="/images/about.jpg" 
-                alt="BANYU shaping bay in Gerupuk Village"
+                alt="Half King workshop in Canggu"
                 className="rounded-lg wood-shadow w-full"
               />
               <div className="absolute inset-0 rounded-lg ring-1 ring-wood-medium opacity-20"></div>

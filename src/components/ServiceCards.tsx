@@ -9,7 +9,6 @@ const ServiceCards = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const services = [
-    
     {
       icon: Waves,
       title: 'Custom Boards',
@@ -17,6 +16,15 @@ const ServiceCards = () => {
       features: ['Personal consultation', 'Custom dimensions', 'Premium materials', 'Craftsmanship guarantee'],
       cta: 'Order a Custom Board',
       action: () => window.location.assign('/custom'),
+      gradient: ''
+    },
+    {
+      icon: Waves,
+      title: 'Custom Fins',
+      description: 'Handcrafted fins tailored to your style — templates, materials, colorways, and finish.',
+      features: ['FCS II or Futures', 'Twin/Thruster/Quad/2+1', 'Fiberglass, wood, carbon', 'Foil and flex tuning'],
+      cta: 'Order Custom Fins',
+      action: () => window.location.assign('/fins'),
       gradient: ''
     },
     {
@@ -29,39 +37,12 @@ const ServiceCards = () => {
       gradient: ''
     },
     {
-      icon: MapPin,
-      title: 'Board Rental',
-      description: 'High-quality rental boards for all skill levels. Perfect for testing different shapes or extended surf trips in Lombok.',
-      features: ['Daily & weekly rates', 'All skill levels', 'Quality boards', 'Local delivery'],
-      cta: 'Browse Rentals',
-      action: () => window.location.assign('/rentals'),
-      gradient: 'ocean-gradient'
-    },
-    {
-      icon: GraduationCap,
-      title: 'Surf Lessons',
-      description: 'Learn to surf or improve your skills with ISA-certified instructors who know Lombok\'s waves like the back of their hand.',
-      features: ['Certified instructors', 'All skill levels', 'Small groups', 'Equipment included'],
-      cta: 'View Lessons',
-      action: () => window.location.assign('/lessons'),
-      gradient: 'wood-gradient'
-    },
-    {
-      icon: Palette,
-      title: 'Board Art',
-      description: 'Transform your surfboard into a masterpiece with our custom art services, blending traditional Indonesian motifs with modern designs.',
-      features: ['Hand-painted artwork', 'Resin tinting', 'Traditional patterns', 'Custom designs'],
-      cta: 'View Gallery',
-      action: () => window.location.href = '/gallery',
-      gradient: 'wood-gradient'
-    },
-    {
       icon: Wrench,
       title: 'Ding Repairs',
       description: 'Professional surfboard repairs using traditional techniques and modern materials to restore your board to peak condition.',
       features: ['Quick turnaround', 'Quality materials', 'Color matching', 'Structural integrity'],
       cta: 'Get Repair Quote',
-      action: () => window.open('https://wa.me/62081236302148?text=Hello%20BANYU,%20I%20need%20ding%20repair%20for%20my%20board.%20Please%20provide%20a%20quote.', '_blank'),
+      action: () => window.open('https://wa.me/6281237531349?text=Hello%20Half%20King,%20I%20need%20ding%20repair%20for%20my%20board.%20Please%20provide%20a%20quote.', '_blank'),
       gradient: 'sand-gradient'
     }
   ];
@@ -78,8 +59,8 @@ const ServiceCards = () => {
               </h2>
               <div className="w-24 h-1 bg-ocean-medium mx-auto mb-6"></div>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                From handcrafted custom boards to professional repairs and surf instruction, 
-                we offer everything you need for your surfing journey in Lombok.
+                From handcrafted custom boards and fins to professional repairs, 
+                we offer everything you need for your surfing journey in Bali.
               </p>
             </div>
 

@@ -12,8 +12,7 @@ const Header = () => {
     { name: 'Home', path: '/' },
     { name: 'Boards', path: '/boards' },
     { name: 'Custom', path: '/custom' },
-    { name: 'Rental', path: '/rentals' }, 
-    { name: 'Lessons', path: '/lessons' },
+    { name: 'Fins', path: '/fins' },
     { name: 'Contact', path: '/contact' }
   ];
 
@@ -27,12 +26,12 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3 group" title="Go to homepage">
             <img 
               src={banyuLogo} 
-              alt="BANYU Surfboards" 
+              alt="Half King Surf" 
               className="h-10 w-10 transition-transform group-hover:scale-105"
             />
             <div>
-              <h1 className="font-serif text-xl font-bold text-foreground">BANYU</h1>
-              <p className="text-xs text-muted-foreground -mt-1">SURFBOARDS</p>
+              <h1 className="font-serif text-xl font-bold text-foreground">HALF KING</h1>
+              <p className="text-xs text-muted-foreground -mt-1">SURFBOARDS & FINS</p>
             </div>
           </Link>
 
@@ -59,7 +58,7 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button asChild variant="outline">
-              <Link to="/custom">Order a Board</Link>
+              <Link to="/fins">Order Fins</Link>
             </Button>
           </div>
 
@@ -93,7 +92,7 @@ const Header = () => {
                 </Link>
               ))}
               <Button asChild variant="outline" className="mt-4">
-                <Link to="/contact">Order a Board</Link>
+                <Link to="/fins">Order Fins</Link>
               </Button>
             </div>
           </nav>

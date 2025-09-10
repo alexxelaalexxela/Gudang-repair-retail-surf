@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="text-center mb-16">
             <h1 className="font-serif text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Ready to start your custom board journey? Get in touch with our team.
+              Custom surfboards and fins by Half King — get in touch to start your build.
             </p>
           </div>
 
@@ -23,11 +23,11 @@ const Contact = () => {
               <div className="flex items-start space-x-4">
                 <MapPin className="h-6 w-6 text-primary mt-1" />
                 <div>
-                  <h3 className="font-serif text-xl font-semibold mb-2">Visit Our Shaping Bay</h3>
+                  <h3 className="font-serif text-xl font-semibold mb-2">Visit Our Workshop</h3>
                   <p className="text-muted-foreground">
-                    Banyu Surfboards, Pengembur, Pujut<br />
-                    Central Lombok Regency<br />
-                    West Nusa Tenggara 83573
+                    Half King<br />
+                    Perumahan Canggu Asri B1 No.44, Tibubeneng<br />
+                    Kuta Utara, Badung, Bali 80361
                   </p>
                 </div>
               </div>
@@ -37,9 +37,9 @@ const Contact = () => {
                 <div>
                   <h3 className="font-serif text-xl font-semibold mb-2">WhatsApp</h3>
                   <Button asChild variant="outline" className="mb-2">
-                    <a href="https://wa.me/62081236302148">
+                    <a href="https://wa.me/6281237531349">
                       <MessageCircle className="w-4 h-4 mr-2" />
-                      +62081236302148
+                      +6281237531349
                     </a>
                   </Button>
                 </div>
@@ -50,8 +50,8 @@ const Contact = () => {
                 <div>
                   <h3 className="font-serif text-xl font-semibold mb-2">Email</h3>
                   <Button asChild variant="outline">
-                    <a href="mailto:hello@banyu-surfboards.com">
-                      hello@banyu-surfboards.com
+                    <a href="mailto:hello@halfking.surf">
+                      hello@halfking.surf
                     </a>
                   </Button>
                 </div>
@@ -71,11 +71,11 @@ const Contact = () => {
 
             {/* Map */}
             <div className="bg-sand-light rounded-lg p-6">
-              <h3 className="font-serif text-xl font-semibold mb-4">Find Us at Banyu Surfboards</h3>
+              <h3 className="font-serif text-xl font-semibold mb-4">Find Us at Half King</h3>
               <div className="aspect-video rounded-md overflow-hidden">
                 <iframe
-                  title="BANYU Surfboards Location"
-                  src="https://www.google.com/maps?q=Banyu%20Surfboards%2C%20Pengembur%2C%20Pujut%2C%20Central%20Lombok%20Regency%2C%20West%20Nusa%20Tenggara%2083573&z=14&output=embed"
+                  title="Half King Location"
+                  src="https://www.google.com/maps?q=Perumahan%20Canggu%20Asri%20B1%20No.44%2C%20Tibubeneng%2C%20Kuta%20Utara%2C%20Kabupaten%20Badung%2C%20Bali%2080361&z=15&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -85,7 +85,7 @@ const Contact = () => {
               </div>
               <div className="mt-4">
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Banyu%20Surfboards%2C%20Pengembur%2C%20Pujut%2C%20Central%20Lombok%20Regency%2C%20West%20Nusa%20Tenggara%2083573"
+                  href="https://www.google.com/maps/search/?api=1&query=Half%20King%2C%20Perumahan%20Canggu%20Asri%20B1%20No.44%2C%20Tibubeneng%2C%20Kuta%20Utara%2C%20Kabupaten%20Badung%2C%20Bali%2080361"
                   target="_blank"
                   rel="noreferrer"
                   className="text-primary underline"

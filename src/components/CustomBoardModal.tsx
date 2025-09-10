@@ -52,7 +52,7 @@ const CustomBoardModal = ({ isOpen, onClose }: CustomBoardModalProps) => {
 
   const generateEmailBody = () => {
     return encodeURIComponent(`
-BANYU Custom Board Request
+Half King Custom Board Request
 
 Personal Information:
 - Name: ${formData.name}
@@ -85,7 +85,7 @@ ${formData.name}
   };
 
   const generateWhatsAppMessage = () => {
-    return encodeURIComponent(`Hello BANYU! I'd like to order a custom board:
+    return encodeURIComponent(`Hello Half King! I'd like to order a custom board:
 
 📋 Personal Info:
 Name: ${formData.name}
@@ -108,14 +108,14 @@ Please send me a quote and timeline!`);
 
   const handleSaveLocally = () => {
     try {
-      const existingRequests = JSON.parse(localStorage.getItem('banyuRequests') || '[]');
+      const existingRequests = JSON.parse(localStorage.getItem('halfKingRequests') || '[]');
       const newRequest = {
         ...formData,
         id: Date.now(),
         timestamp: new Date().toISOString()
       };
       existingRequests.push(newRequest);
-      localStorage.setItem('banyuRequests', JSON.stringify(existingRequests));
+      localStorage.setItem('halfKingRequests', JSON.stringify(existingRequests));
       
       toast({
         title: "Request Saved",
@@ -140,7 +140,7 @@ Please send me a quote and timeline!`);
       return;
     }
     
-    const mailtoUrl = `mailto:hello@banyu-surfboards.com?subject=BANYU Custom Board Request&body=${generateEmailBody()}`;
+    const mailtoUrl = `mailto:hello@halfking.surf?subject=Half King Custom Board Request&body=${generateEmailBody()}`;
     window.location.href = mailtoUrl;
     handleSaveLocally();
   };
@@ -155,7 +155,7 @@ Please send me a quote and timeline!`);
       return;
     }
     
-    const whatsappUrl = `https://wa.me/62081236302148?text=${generateWhatsAppMessage()}`;
+    const whatsappUrl = `https://wa.me/6281237531349?text=${generateWhatsAppMessage()}`;
     window.open(whatsappUrl, '_blank');
     handleSaveLocally();
   };
