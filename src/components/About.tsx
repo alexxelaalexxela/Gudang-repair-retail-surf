@@ -11,7 +11,7 @@ const About = () => {
     {
       icon: Heart,
       title: 'Passion for Surf',
-      description: 'Born from our love for Lombok\'s incredible waves and the desire to create boards that enhance your connection with the ocean.'
+      description: 'Born from our love for Bali\'s incredible waves and the desire to create boards that enhance your connection with the ocean.'
     },
     {
       icon: Users,
@@ -20,8 +20,8 @@ const About = () => {
     },
     {
       icon: Award,
-      title: 'Lombok\'s First',
-      description: 'Proud to be Lombok\'s first dedicated shaping bay, pioneering custom surfboard craftsmanship in Nusa Tenggara Barat.'
+      title: 'Bali\'s First',
+      description: 'Proud to be Bali\'s first dedicated shaping bay, pioneering custom surfboard craftsmanship in Nusa Tenggara Barat.'
     }
   ];
 
