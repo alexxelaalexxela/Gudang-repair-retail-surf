@@ -72,15 +72,6 @@ const Footer = () => {
                   WhatsApp: 0823-4100-3422
                 </a>
               </li>
-              <li className="flex items-center space-x-2 text-sm">
-                <Mail className="h-4 w-4 flex-shrink-0" />
-                <a 
-                  href="mailto:hello@halfking.surf"
-                  className="opacity-80 hover:opacity-100 hover:text-ocean-light transition-colors"
-                >
-                  hello@halfking.surf
-                </a>
-              </li>
             </ul>
           </div>
 
