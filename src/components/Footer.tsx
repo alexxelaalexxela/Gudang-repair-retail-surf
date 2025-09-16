@@ -22,15 +22,6 @@ const Footer = () => {
             <p className="text-sm opacity-80 mb-4">
               Surfboard repairs, custom boards, fins and rentals in Kuta, Lombok.
             </p>
-            <a
-              href="https://instagram.com/halfkingsurf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 text-sm hover:text-ocean-light transition-colors"
-            >
-              <Instagram className="h-4 w-4" />
-              <span>@halfkingsurf</span>
-            </a>
           </div>
 
           {/* Quick Links */}

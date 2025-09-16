@@ -55,12 +55,6 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button asChild variant="outline">
-              <Link to="/fins">Order Fins</Link>
-            </Button>
-          </div>
 
           {/* Mobile Menu Button */}
           <Button
