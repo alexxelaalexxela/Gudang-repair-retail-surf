@@ -16,7 +16,7 @@ const About = () => {
     {
       icon: Users,
       title: 'Community Roots',
-      description: 'Deeply rooted in Gerupuk Village, we support local talent and contribute to the growth of Indonesia\'s surf culture.'
+      description: 'Deeply rooted in Kuta Village, we support local talent and contribute to the growth of Indonesia\'s surf culture.'
     },
     {
       icon: Award,
