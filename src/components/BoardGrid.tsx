@@ -203,7 +203,7 @@ const BoardGrid = () => {
               <div className="flex gap-4 mt-6">
                 <Button 
                   className="flex-1 ocean-gradient text-white"
-                  onClick={() => window.open(`https://wa.me/6281237531349?text=Hello%20Half%20King,%20I'm%20interested%20in%20the%20${selectedBoard.name}%20board.%20Please%20send%20me%20more%20information.`, '_blank')}
+                  onClick={() => window.open(`https://wa.me/6282341003422?text=${encodeURIComponent(`Hello Gudang repair & Surf, I'm interested in the ${selectedBoard.name} board. Please send me more information.`)}` , '_blank')}
                 >
                   Order This Board
                 </Button>

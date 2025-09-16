@@ -85,7 +85,7 @@ const Custom = () => {
 
   const composeWhatsAppMessage = () => {
     const lines = [
-      'Half King Custom Surfboard Request',
+      'Gudang repair & Surf — Custom Surfboard Request',
       '',
       'Personal Information:',
       `- Name: ${formData.name}`,
@@ -129,7 +129,7 @@ const Custom = () => {
   const handleSubmitWhatsApp = () => {
     if (!formData.name) return;
     const msg = composeWhatsAppMessage();
-    const url = `https://wa.me/6281237531349?text=${msg}`;
+    const url = `https://wa.me/6282341003422?text=${msg}`;
     window.open(url, '_blank');
   };
 

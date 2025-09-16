@@ -19,23 +19,23 @@ const Hero = () => {
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <img 
           src={banyuLogo}
-          alt="Half King Surf"
+          alt="Gudang repair & Surf"
           className="h-24 w-24 md:h-32 md:w-32 mx-auto mb-6 drop-shadow-lg"
         />
         <a
-          href="https://www.google.com/maps/search/?api=1&query=Half%20King%2C%20Perumahan%20Canggu%20Asri%20B1%20No.44%2C%20Tibubeneng%2C%20Kuta%20Utara%2C%20Kabupaten%20Badung%2C%20Bali%2080361"
+          href="https://www.google.com/maps/search/?api=1&query=Gudang%20repair%20%26%20Surf%2C%20Jl.%20Pariwisata%20Pantai%20Kuta%2C%20Praya%2C%20Kuta%2C%20Kec.%20Pujut%2C%20Kabupaten%20Lombok%20Tengah%2C%20Nusa%20Tenggara%20Bar.%2083573"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center justify-center mb-6 hover:underline"
         >
           <MapPin className="h-5 w-5 mr-2" />
           <span className="text-sm font-medium tracking-wide uppercase">
-            Half King, Canggu
+            Kuta, Lombok
           </span>
         </a>
         
-        <h1 className="font-serif text-5xl md:text-7xl font-bold mb-4 leading-tight">Half King</h1>
-        <p className="text-lg md:text-xl opacity-90 mb-10 max-w-2xl mx-auto leading-relaxed">Custom surfboards and fins handcrafted in Canggu, Bali.</p>
+        <h1 className="font-serif text-5xl md:text-7xl font-bold mb-4 leading-tight">Gudang repair & Surf</h1>
+        <p className="text-lg md:text-xl opacity-90 mb-10 max-w-2xl mx-auto leading-relaxed">Surfboard repairs, custom boards, fins and rentals in Kuta, Lombok.</p>
         
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

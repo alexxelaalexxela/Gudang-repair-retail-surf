@@ -52,7 +52,7 @@ const CustomBoardModal = ({ isOpen, onClose }: CustomBoardModalProps) => {
 
   const generateEmailBody = () => {
     return encodeURIComponent(`
-Half King Custom Board Request
+Gudang repair & Surf — Custom Board Request
 
 Personal Information:
 - Name: ${formData.name}
@@ -85,7 +85,7 @@ ${formData.name}
   };
 
   const generateWhatsAppMessage = () => {
-    return encodeURIComponent(`Hello Half King! I'd like to order a custom board:
+    return encodeURIComponent(`Hello Gudang repair & Surf! I'd like to order a custom board:
 
 📋 Personal Info:
 Name: ${formData.name}
@@ -108,14 +108,14 @@ Please send me a quote and timeline!`);
 
   const handleSaveLocally = () => {
     try {
-      const existingRequests = JSON.parse(localStorage.getItem('halfKingRequests') || '[]');
+      const existingRequests = JSON.parse(localStorage.getItem('gudangRequests') || '[]');
       const newRequest = {
         ...formData,
         id: Date.now(),
         timestamp: new Date().toISOString()
       };
       existingRequests.push(newRequest);
-      localStorage.setItem('halfKingRequests', JSON.stringify(existingRequests));
+      localStorage.setItem('gudangRequests', JSON.stringify(existingRequests));
       
       toast({
         title: "Request Saved",
@@ -140,7 +140,7 @@ Please send me a quote and timeline!`);
       return;
     }
     
-    const mailtoUrl = `mailto:hello@halfking.surf?subject=Half King Custom Board Request&body=${generateEmailBody()}`;
+    const mailtoUrl = `mailto:hello@halfking.surf?subject=Gudang repair & Surf — Custom Board Request&body=${generateEmailBody()}`;
     window.location.href = mailtoUrl;
     handleSaveLocally();
   };
@@ -155,7 +155,7 @@ Please send me a quote and timeline!`);
       return;
     }
     
-    const whatsappUrl = `https://wa.me/6281237531349?text=${generateWhatsAppMessage()}`;
+    const whatsappUrl = `https://wa.me/6282341003422?text=${generateWhatsAppMessage()}`;
     window.open(whatsappUrl, '_blank');
     handleSaveLocally();
   };

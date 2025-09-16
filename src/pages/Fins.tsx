@@ -57,7 +57,7 @@ const Fins = () => {
 
   const composeWhatsAppMessage = () => {
     const lines = [
-      'Half King Custom Fins Request',
+      'Gudang repair & Surf — Custom Fins Request',
       '',
       'Contact:',
       `- Name: ${formData.name}`,
@@ -91,7 +91,7 @@ const Fins = () => {
   const handleSubmitWhatsApp = () => {
     if (!formData.name) return;
     const msg = composeWhatsAppMessage();
-    const url = `https://wa.me/6281237531349?text=${msg}`;
+    const url = `https://wa.me/6282341003422?text=${msg}`;
     window.open(url, '_blank');
   };
 
@@ -116,7 +116,7 @@ const Fins = () => {
               <li>Fill in the Custom Fins request below.</li>
               <li>We confirm details, pricing, and lead time via WhatsApp.</li>
               <li>Pay the deposit to start your build.</li>
-              <li>Pick up in Canggu or arrange shipping.</li>
+              <li>Pick up in Kuta, Lombok or arrange shipping.</li>
             </ol>
           </section>
 

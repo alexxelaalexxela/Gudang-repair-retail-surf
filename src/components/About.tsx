@@ -11,7 +11,7 @@ const About = () => {
     {
       icon: Heart,
       title: 'Passion for Surf',
-      description: 'Born from our love for Bali\'s incredible waves and the desire to create boards that enhance your connection with the ocean.'
+      description: 'Born from our love for Lombok\'s incredible waves and the desire to create boards that enhance your connection with the ocean.'
     },
     {
       icon: Users,
@@ -20,8 +20,8 @@ const About = () => {
     },
     {
       icon: Award,
-      title: 'Bali\'s First',
-      description: 'Proud to be Bali\'s first dedicated shaping bay, pioneering custom surfboard craftsmanship in Nusa Tenggara Barat.'
+      title: 'Lombok\'s Craft',
+      description: 'Proudly serving Lombok with dedicated shaping, repairs, and custom craftsmanship in Nusa Tenggara Barat.'
     }
   ];
 
@@ -36,8 +36,8 @@ const About = () => {
             </h2>
             <div className="w-24 h-1 bg-ocean-medium mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              From Canggu to the hands of master craftsmen, 
-              Half King represents the perfect fusion of tradition and innovation in surfboard and fin shaping.
+              From Kuta, Lombok to the hands of master craftsmen, 
+              Gudang repair & Surf represents the perfect fusion of tradition and innovation in surfboard and fin shaping.
             </p>
           </div>
 
@@ -48,17 +48,17 @@ const About = () => {
                 Where Tradition Meets Innovation
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Born in Bali, Half King emerged from a simple yet profound vision: 
+                Born in Lombok, Gudang repair & Surf emerged from a simple yet profound vision: 
                 to create world-class surfboards and fins that honor Indonesian craftsmanship while embracing modern design principles.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Our master shapers combine decades of woodworking tradition with cutting-edge surfboard and fin technology, 
-                creating equipment that is not just functional, but works of art that tell the story of Bali's 
+                creating equipment that is not just functional, but works of art that tell the story of Lombok's 
                 rich cultural heritage and incredible waves.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Every board and fin that leaves our workshop carries the spirit of Indonesian craftsmanship 
-                and the soul of Bali's legendary surf breaks.
+                and the soul of Lombok's legendary surf breaks.
               </p>
             </div>
 
@@ -66,7 +66,7 @@ const About = () => {
             <div className="relative">
               <img 
                 src="/images/about.jpg" 
-                alt="Half King workshop in Canggu"
+                alt="Gudang repair & Surf workshop in Kuta, Lombok"
                 className="rounded-lg wood-shadow w-full"
               />
               <div className="absolute inset-0 rounded-lg ring-1 ring-wood-medium opacity-20"></div>

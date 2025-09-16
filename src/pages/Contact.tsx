@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="text-center mb-16">
             <h1 className="font-serif text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Custom surfboards and fins by Half King — get in touch to start your build.
+              Gudang repair & Surf — surfboard repairs, custom boards, fins and rentals.
             </p>
           </div>
 
@@ -25,9 +25,9 @@ const Contact = () => {
                 <div>
                   <h3 className="font-serif text-xl font-semibold mb-2">Visit Our Workshop</h3>
                   <p className="text-muted-foreground">
-                    Half King<br />
-                    Perumahan Canggu Asri B1 No.44, Tibubeneng<br />
-                    Kuta Utara, Badung, Bali 80361
+                    Gudang repair & Surf<br />
+                    Jl. Pariwisata Pantai Kuta, Praya, Kuta<br />
+                    Kec. Pujut, Kab. Lombok Tengah, NTB 83573
                   </p>
                 </div>
               </div>
@@ -37,9 +37,9 @@ const Contact = () => {
                 <div>
                   <h3 className="font-serif text-xl font-semibold mb-2">WhatsApp</h3>
                   <Button asChild variant="outline" className="mb-2">
-                    <a href="https://wa.me/6281237531349">
+                    <a href="https://wa.me/6282341003422">
                       <MessageCircle className="w-4 h-4 mr-2" />
-                      +6281237531349
+                      0823-4100-3422
                     </a>
                   </Button>
                 </div>
@@ -71,11 +71,11 @@ const Contact = () => {
 
             {/* Map */}
             <div className="bg-sand-light rounded-lg p-6">
-              <h3 className="font-serif text-xl font-semibold mb-4">Find Us at Half King</h3>
+              <h3 className="font-serif text-xl font-semibold mb-4">Find Us at Gudang repair & Surf</h3>
               <div className="aspect-video rounded-md overflow-hidden">
                 <iframe
-                  title="Half King Location"
-                  src="https://www.google.com/maps?q=Perumahan%20Canggu%20Asri%20B1%20No.44%2C%20Tibubeneng%2C%20Kuta%20Utara%2C%20Kabupaten%20Badung%2C%20Bali%2080361&z=15&output=embed"
+                  title="Gudang repair & Surf Location"
+                  src="https://www.google.com/maps?q=Jl.%20Pariwisata%20Pantai%20Kuta%2C%20Praya%2C%20Kuta%2C%20Kec.%20Pujut%2C%20Kabupaten%20Lombok%20Tengah%2C%20Nusa%20Tenggara%20Bar.%2083573&z=15&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -85,7 +85,7 @@ const Contact = () => {
               </div>
               <div className="mt-4">
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Half%20King%2C%20Perumahan%20Canggu%20Asri%20B1%20No.44%2C%20Tibubeneng%2C%20Kuta%20Utara%2C%20Kabupaten%20Badung%2C%20Bali%2080361"
+                  href="https://www.google.com/maps/search/?api=1&query=Gudang%20repair%20%26%20Surf%2C%20Jl.%20Pariwisata%20Pantai%20Kuta%2C%20Praya%2C%20Kuta%2C%20Kec.%20Pujut%2C%20Kabupaten%20Lombok%20Tengah%2C%20Nusa%20Tenggara%20Bar.%2083573"
                   target="_blank"
                   rel="noreferrer"
                   className="text-primary underline"

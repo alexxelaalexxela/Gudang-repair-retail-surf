@@ -13,14 +13,14 @@ const Footer = () => {
           {/* Brand & Logo */}
           <div className="md:col-span-1">
             <div className="flex items-center space-x-3 mb-4">
-              <img src={banyuLogo} alt="Half King Surf" className="h-10 w-10" />
+              <img src={banyuLogo} alt="Gudang repair & Surf" className="h-10 w-10" />
               <div>
-                <h3 className="font-serif text-xl font-bold">HALF KING</h3>
+                <h3 className="font-serif text-xl font-bold">Gudang repair & Surf</h3>
                 <p className="text-sm opacity-80">SURFBOARDS & FINS</p>
               </div>
             </div>
             <p className="text-sm opacity-80 mb-4">
-              Custom surfboards and fins handcrafted in Canggu, Bali.
+              Surfboard repairs, custom boards, fins and rentals in Kuta, Lombok.
             </p>
             <a
               href="https://instagram.com/halfkingsurf"
@@ -49,7 +49,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://wa.me/6281237531349?text=Hello%20Half%20King,%20I%20need%20ding%20repair%20for%20my%20board"
+                  href="https://wa.me/6282341003422?text=Hello%20Gudang%20repair%20%26%20Surf,%20I%20need%20ding%20repair%20for%20my%20board.%20Please%20provide%20a%20quote."
                   className="text-sm opacity-80 hover:opacity-100 hover:text-ocean-light transition-colors"
                 >
                   Ding Repairs
@@ -65,20 +65,20 @@ const Footer = () => {
               <li className="flex items-start space-x-2 text-sm">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <span className="opacity-80">
-                  <a href="https://www.google.com/maps/search/?api=1&query=Half%20King%2C%20Perumahan%20Canggu%20Asri%20B1%20No.44%2C%20Tibubeneng%2C%20Kuta%20Utara%2C%20Kabupaten%20Badung%2C%20Bali%2080361" target="_blank" rel="noreferrer" className="hover:underline">
-                    Half King<br />
-                    Perumahan Canggu Asri B1 No.44, Tibubeneng<br />
-                    Kuta Utara, Badung, Bali 80361
+                  <a href="https://www.google.com/maps/search/?api=1&query=Gudang%20repair%20%26%20Surf%2C%20Jl.%20Pariwisata%20Pantai%20Kuta%2C%20Praya%2C%20Kuta%2C%20Kec.%20Pujut%2C%20Kabupaten%20Lombok%20Tengah%2C%20Nusa%20Tenggara%20Bar.%2083573" target="_blank" rel="noreferrer" className="hover:underline">
+                    Gudang repair & Surf<br />
+                    Jl. Pariwisata Pantai Kuta, Praya, Kuta<br />
+                    Kec. Pujut, Kab. Lombok Tengah, NTB 83573
                   </a>
                 </span>
               </li>
               <li className="flex items-center space-x-2 text-sm">
                 <Phone className="h-4 w-4 flex-shrink-0" />
                 <a 
-                  href="https://wa.me/6281237531349"
+                  href="https://wa.me/6282341003422"
                   className="opacity-80 hover:opacity-100 hover:text-ocean-light transition-colors"
                 >
-                  WhatsApp: +6281237531349
+                  WhatsApp: 0823-4100-3422
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-sm">
@@ -111,7 +111,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-wood-medium mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm opacity-60">
-            © {currentYear} Half King. All rights reserved.
+            © {currentYear} Gudang repair & Surf. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <Link to="/privacy" className="text-sm opacity-60 hover:opacity-80 transition-colors">

@@ -42,7 +42,7 @@ const ServiceCards = () => {
       description: 'Professional surfboard repairs using traditional techniques and modern materials to restore your board to peak condition.',
       features: ['Quick turnaround', 'Quality materials', 'Color matching', 'Structural integrity'],
       cta: 'Get Repair Quote',
-      action: () => window.open('https://wa.me/6281237531349?text=Hello%20Half%20King,%20I%20need%20ding%20repair%20for%20my%20board.%20Please%20provide%20a%20quote.', '_blank'),
+      action: () => window.open('https://wa.me/6282341003422?text=Hello%20Gudang%20repair%20%26%20Surf,%20I%20need%20ding%20repair%20for%20my%20board.%20Please%20provide%20a%20quote.', '_blank'),
       gradient: 'sand-gradient'
     }
   ];
@@ -60,7 +60,7 @@ const ServiceCards = () => {
               <div className="w-24 h-1 bg-ocean-medium mx-auto mb-6"></div>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
                 From handcrafted custom boards and fins to professional repairs, 
-                we offer everything you need for your surfing journey in Bali.
+                we offer everything you need for your surfing journey in Lombok.
               </p>
             </div>
 
